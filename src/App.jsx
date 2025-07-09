@@ -24,8 +24,8 @@ function App() {
       <>
         <div className="preload">
           <h1>
-            <strong>Subham</strong>
-            <i> AS</i>.
+            <strong>Hey There</strong>
+            <i> Welcome!</i>
           </h1>
           <p>─────</p>
           <Spinner animation="grow" />
