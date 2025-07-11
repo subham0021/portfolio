@@ -1,21 +1,21 @@
 const allProjects = [
   {
-    title: 'Meal Map',
-    img: require('../img/Project1.webp'),
+    title: 'Visual Sorting',
+    img: require('../img/project1.png'),
     description:
-      'Meal Map is a website to search food recipes around the world, this website uses the edamam API.',
-    websiteUrl: 'https://muhthoriqas.github.io/Recipe-Foods/',
-    githubUrl: 'https://github.com/Muhthoriqas/Recipe-Foods',
-    techStack: ['Javascript', 'SASS', 'RESTful API'],
+      'It is a Sorting Visualizer Project for visually understand the process of various types of sorting',
+    websiteUrl: 'https://visualsortit.netlify.app/',
+    githubUrl: 'https://github.com/sdindic/visualsorting-main',
+    techStack: ['Javascript', 'HTML', ' CSS'],
   },
   {
-    title: 'Simpel Store',
-    img: require('../img/Project1.webp'),
+    title: 'Toggle Today',
+    img: require('../img/project2.png'),
     description:
-      'Simple Store is a full-stack website, allowing users to add items, earn tokens, and redeem tokens.',
-    websiteUrl: 'https://store-discount.vercel.app/',
-    githubUrl: 'https://github.com/Muhthoriqas/Store-Discount',
-    techStack: ['Next.js', 'Express', 'Firebase'],
+      'A Stunning Animated Responsive Blog Website Landing Page.',
+    websiteUrl: 'https://toggle2day.netlify.app/',
+    githubUrl: 'https://github.com/sdindic/Toogle2Day',
+    techStack: ['Javascript', 'HTML', 'CSS'],
   },
   
 ];
