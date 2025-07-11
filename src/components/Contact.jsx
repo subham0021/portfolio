@@ -2,7 +2,7 @@ import {
   AiOutlineMail,
   AiFillGithub,
   AiFillLinkedin,
-  AiFillInstagram,
+  AiFillTwitterSquare,
   AiOutlineArrowRight,
 } from "react-icons/ai";
 import { CopyToClipboard } from "react-copy-to-clipboard";
@@ -64,7 +64,7 @@ function Contact() {
                   </h3>
                   <p>Subham Das</p>
                   <a
-                    href="https://www.linkedin.com/in/sd-indic/"
+                    href="https://www.linkedin.com/in/subhamdas21/"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"
@@ -93,14 +93,14 @@ function Contact() {
                 </div>
               </div>
               <div className="col contact-col animate__animated animate__slideInRight">
-                <div className="instagram-wrapper">
+                <div className="Twitter-wrapper">
                   <h3>
-                    <AiFillInstagram />
-                    &nbsp;&nbsp;Instagram
+                    <AiFillTwitterSquare/>
+                    &nbsp;&nbsp;Twitter
                   </h3>
                   <p>Subham Das</p>
                   <a
-                    href="https://www.instagram.com/thegeekybong/"
+                    href="https://www.X.com/sd_indic/"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"

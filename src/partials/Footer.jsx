@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from "react-icons/ai";
 import "./CSS/Footer.css";
 
 function Footer() {
@@ -26,12 +26,12 @@ function Footer() {
             &nbsp;&nbsp;Linkedin
           </a>
           <a
-            href="https://www.instagram.com/thegeekybong/"
+            href="https://www.x.com/sd_indic/"
             target="_blank"
             rel="noreferrer"
           >
-            <AiFillInstagram className="foot-icon" />
-            &nbsp;&nbsp;Instagram
+            <AiFillTwitterSquare className="foot-icon" />
+            &nbsp;&nbsp;Twitter
           </a>
         </div>
       </footer>
