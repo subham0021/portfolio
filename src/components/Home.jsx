@@ -3,7 +3,7 @@
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import realProfile from "../assets/img/sds.jpg";
+import realProfile from "../assets/img/sd.jpg";
 import hoverProfile from "../assets/img/sds.jpg";
 // import CVDoc from "../assets/download/CV.pdf";
 import Hi from "../assets/img/Hi.gif";
