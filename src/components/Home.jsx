@@ -3,8 +3,8 @@
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import realProfile from "../assets/img/sd.jpg";
-import hoverProfile from "../assets/img/sds.jpg";
+import realProfile from "../assets/img/sd.png";
+import hoverProfile from "../assets/img/sd.png";
 // import CVDoc from "../assets/download/CV.pdf";
 import Hi from "../assets/img/Hi.gif";
 import { Helmet, HelmetProvider } from "react-helmet-async";
