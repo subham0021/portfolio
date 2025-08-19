@@ -2,7 +2,6 @@ import {
   AiOutlineMail,
   AiFillGithub,
   AiFillLinkedin,
-  AiFillTwitterSquare,
   AiOutlineArrowRight,
 } from "react-icons/ai";
 import { CopyToClipboard } from "react-copy-to-clipboard";
@@ -18,7 +17,6 @@ function Contact() {
 
   function actionCopy() {
     setAlreadyCopy("Copied");
-
     setTimeout(function () {
       setAlreadyCopy("Copy");
     }, 1000);
@@ -47,8 +45,7 @@ function Contact() {
                     <AiOutlineMail />
                     &nbsp;&nbsp;Email
                   </h3>
-                  <p>subhamdas4414@gmail.com</p>
-                  <CopyToClipboard text="subhamdas4414@gmail.com">
+                  <CopyToClipboard text="sd.dev.00021@gmail.com">
                     <button className="btn-copy" onClick={actionCopy}>
                       {alreadyCopy}&nbsp;&nbsp;
                       <FiCopy />
@@ -60,9 +57,8 @@ function Contact() {
                 <div className="linkedin-wrapper">
                   <h3>
                     <AiFillLinkedin />
-                    &nbsp;&nbsp;Linkedin
+                    &nbsp;&nbsp;LinkedIn
                   </h3>
-                  <p>Subham Das</p>
                   <a
                     href="https://www.linkedin.com/in/subhamdas21/"
                     target="_blank"
@@ -74,15 +70,16 @@ function Contact() {
                   </a>
                 </div>
               </div>
+
+              {/* GitHub Card */}
               <div className="col contact-col animate__animated animate__slideInLeft">
                 <div className="github-wrapper">
                   <h3>
                     <AiFillGithub />
                     &nbsp;&nbsp;GitHub
                   </h3>
-                  <p>Subham Das</p>
                   <a
-                    href="https://github.com/sdindic"
+                    href="https://github.com/subham0021"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"
@@ -92,24 +89,7 @@ function Contact() {
                   </a>
                 </div>
               </div>
-              <div className="col contact-col animate__animated animate__slideInRight">
-                <div className="Twitter-wrapper">
-                  <h3>
-                    <AiFillTwitterSquare/>
-                    &nbsp;&nbsp;Twitter
-                  </h3>
-                  <p>Subham Das</p>
-                  <a
-                    href="https://www.X.com/sd_indic/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-direct"
-                  >
-                    Visit&nbsp;&nbsp;
-                    <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

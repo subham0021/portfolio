@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className="foot-right d-flex">
           <a
-            href="https://github.com/sdindic"
+            href="https://github.com/subham0021"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,14 +24,6 @@ function Footer() {
           >
             <AiFillLinkedin className="foot-icon" />
             &nbsp;&nbsp;Linkedin
-          </a>
-          <a
-            href="https://www.x.com/sd_indic/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillTwitterSquare className="foot-icon" />
-            &nbsp;&nbsp;Twitter
           </a>
         </div>
       </footer>

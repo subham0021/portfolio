@@ -39,12 +39,7 @@ function About() {
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
           <p>
-            Hi, I'm Subham Das, a fresher Btech CSE graduate. I have a strong interest in Web Development, Software Development
-            and Data Analysis. Specifically, I use a combination of
-            technologies called the MERN stack (MongoDB, Express.js, React.js,
-            Node.js), and I am also knowledgeable in C, C++, Java, DSA, DBMS, Power Bi, MySQL,
-            Google Cloud Platform (GCP), which allows me to create, manage, and
-            deploy dynamic, interactive Websites, and secure web applications, softwares etc.
+            "I am a Computer Science and Engineering graduate with a strong foundation in software development, data structures, and problem-solving. Passionate about building scalable applications and exploring emerging technologies like AI, cloud computing, and full-stack development. Skilled in Java, C++, and modern web technologies, I bring a quick-learning mindset, adaptability, and a drive to contribute to impactful projects. As a fresher, I am eager to apply my skills in real-world challenges, collaborate with innovative teams, and grow into a versatile software engineer.
           </p>
 
           <h4>Certificates</h4>
